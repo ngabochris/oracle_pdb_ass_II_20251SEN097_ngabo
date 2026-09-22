@@ -80,7 +80,7 @@ To verify database lifecycle management, a temporary PDB was created, closed, an
 
 ```sql
 CREATE PLUGGABLE DATABASE ng_to_delete_pdb_20251SEN097
-ADMIN USER ngabo_plsqlauca_20251SEN097 IDENTIFIED BY "TempPass123"
+ADMIN USER ngabo_plsqlauca_20251SEN097 IDENTIFIED BY "1234"
 FILE_NAME_CONVERT = (
     '/opt/oracle/oradata/XE/pdbseed/', 
     '/opt/oracle/oradata/XE/ng_to_delete_pdb_20251SEN097/'
